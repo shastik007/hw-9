@@ -4,6 +4,7 @@ import Navigation from './Navigation';
 import classes from './MainHeader.module.css';
 
 const MainHeader = (props) => {
+  // навигация выходит когда user выполнил вход
   return (
     <header className={classes['main-header']}>
       <h1>A Typical Page</h1>
